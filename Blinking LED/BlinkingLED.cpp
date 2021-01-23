@@ -1,5 +1,7 @@
 #include "Define.h"
-
+/*
+	Led blinking using Timer
+*/
 
 int main()
 {
@@ -24,8 +26,6 @@ int main()
             {
                 OUTSET=(1<<14);
                 OUTCLR=(1<<13);
-                
-                
                 break;
             }
             else
