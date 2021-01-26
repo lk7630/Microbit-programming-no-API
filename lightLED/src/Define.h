@@ -8,7 +8,7 @@
 #define DIRCLR (*(volatile unsigned long int *)(BASE_IO_ADDRESS + 0x51C))
 #define BUTTON_A (*(volatile unsigned long int *)(BASE_IO_ADDRESS + 0x744))
 #define BUTTON_B (*(volatile unsigned long int *)(BASE_IO_ADDRESS + 0x768))
-#define BASE_TIMER_ADDRESS 0x40009000   //using timer1
+#define BASE_TIMER_ADDRESS 0x40009000   //using timer1; change to other timers by changing the base address
                                         //timer0 8/16/24/32 bits
                                         //timer1 and timer 2: 8/16bit
 #define TIMER_MODE (*(volatile unsigned long int*)(BASE_TIMER_ADDRESS + 0x504))
