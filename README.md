@@ -16,9 +16,9 @@ Micro:bit v1.5 processor (nRF51822) documents:
 I suggest downloading the Product Spec and Reference manual and keep them handy.
 I am using mbed.com to develop the programs (an online development flatform).
 It is recommended to follow this order (which also is the order I went through when I learnt this dev board):
-1. LightLED https://github.com/lk7630/Microbit-programming-no-API/blob/main/lightLED/README.md
-2. BlinkingLED
-3. RunningLED
-4. Buttondetection
-5. Buttondetection_withDelay
-6. LedControl_2buttons
+1. LightLED https://github.com/lk7630/Microbit-programming-no-API/tree/main/lightLED
+2. BlinkingLED https://github.com/lk7630/Microbit-programming-no-API/tree/main/Blinking%20LED
+3. RunningLED https://github.com/lk7630/Microbit-programming-no-API/tree/main/RunningLED
+4. Buttondetection https://github.com/lk7630/Microbit-programming-no-API/tree/main/Buttondetection
+5. Buttondetection_withDelay https://github.com/lk7630/Microbit-programming-no-API/tree/main/ButtonDetection_withDelay
+6. LedControl_2buttons https://github.com/lk7630/Microbit-programming-no-API/tree/main/LEDControl_2buttons
