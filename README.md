@@ -1,7 +1,7 @@
 # Microbit programming no API
  Basic Microbit programming using none or limited APIs
 
-The codes in the repo are for the purpose of understanding the operation of Micro:bit at a lower level. Codes read and write directly to the registers. 
+This repo is for the purpose of understanding the operation of Micro:bit at a lower level. Customized writen libraries help to read/write directly to the registers. 
 
 Micro:bit v1.5 hardware : 
 https://tech.microbit.org/hardware/1-5-revision/
