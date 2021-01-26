@@ -20,5 +20,5 @@ It is recommended to follow this order (which also is the order I went through w
 2. BlinkingLED
 3. RunningLED
 4. Buttondetection
-5. Buttondetection_SimpleDebounce
+5. Buttondetection_withDelay
 6. Buttondetection_withDebounce
