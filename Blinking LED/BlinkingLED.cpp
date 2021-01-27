@@ -1,7 +1,5 @@
 #include "Define.h"
-/*
-	Led blinking using Timer
-*/
+
 
 int main()
 {
@@ -11,7 +9,7 @@ int main()
     CC_1=31250;     //write 15625 to the compare/capture register 1; Event_COMPARE_1 will turn 1 when the counter reach CC1 value
     TASK_START=1;   //start the timer
     
-    DIRSET=(1<<4)+(1<<13)+(1<<14); //set pin4 and 13 as output
+    DIRSET=(1<<4)+(1<<13); //set pin4 and 13 as output
     OUTCLR=(1<<4);         //set pin 04 (column 1) to 0
     
     while (1)
@@ -24,13 +22,11 @@ int main()
             EVENT_COMPARE_1=0;
             if (OUT&(1<<13))        //check if pin 13 is high (1), clear if true and set if false
             {
-                OUTSET=(1<<14);
                 OUTCLR=(1<<13);
                 break;
             }
             else
             {
-                OUTCLR=(1<<14);
                 OUTSET=(1<<13);
                 break;
             }
