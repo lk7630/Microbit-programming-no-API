@@ -1,5 +1,5 @@
 #include "Define.h"
-void delay(int milisec);
+void Delay(int milisec);
 void Led_on_individually(int row, int col);
 void Debounce(int button);
 int main()
@@ -18,7 +18,7 @@ int main()
         for (int j=1;j<=5;j++){
             while ((IN&(1<<26))!=0) //keep looping until BUTTON_B is pressed (showing low)
                 {}
-                delay(100);      //delay for 100 milisec to debounce the button, comment this line out to see how it react without debounce
+                Delay(100);      //Delay for 100 milisec to debounce the button, comment this line out to see how it react without debounce
                 Led_on_individually(i,j);
                 }
     
