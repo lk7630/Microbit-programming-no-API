@@ -7,7 +7,7 @@
 
 #include "Define.h"
 
-void delay (int mili);
+void Delay (int mili);
 void Debounce(int button,char ID, int samples, int time)
 {
     int bit=0;
@@ -26,7 +26,7 @@ void Debounce(int button,char ID, int samples, int time)
     int count=0;
     while(1)
     {
-        delay(time);
+        Delay(time);
         if (((IN&(1<<bit))==current_state))
         {
         count++;
