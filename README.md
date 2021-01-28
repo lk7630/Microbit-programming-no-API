@@ -23,3 +23,4 @@ It is recommended to follow this order (which also is the order I went through w
 5. Buttondetection_withDelay https://github.com/lk7630/Microbit-programming-no-API/tree/main/ButtonDetection_withDelay
 6. LedControl_2buttons https://github.com/lk7630/Microbit-programming-no-API/tree/main/LEDControl_2buttons
 7. PPI_flashLED https://github.com/lk7630/Microbit-programming-no-API/tree/main/07_PPI_flashingLED
+8. PPI_LEDControl https://github.com/lk7630/Microbit-programming-no-API/tree/main/08_PPI_LEDControl
